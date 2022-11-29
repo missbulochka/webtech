@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+}
+
+.wrapper {
+    width: 920px;
+    margin: 0 auto;
+}
+
+
+.bg_top_navigation {
+    background: #f2f2f2;
+}
+
+#top-navigation {
+    height: 29px;
+    background: #f2f2f2;
+}
+
+
+.bg_logo_and_menu {
+    height: 102px;
+    background: khaki;
+}
+#logo {
+    width: 250px;
+    height: 102px;
+    background: #ffb6a5;
+}
+
+
+.bg_some_content {
+    background: #f2f2f2;
+}
+
+#big_green_block {
+    width: 980px;
+    height: 135px;
+    background: #8ef254;
+}
+
+#content {
+    height: 200px;
+}
+
+#news {
+    width: 320px;
+    height: 200px;
+    background: #f2af2d;
+    float: left;
+}
+#offers {
+    width: 600px;
+    height: 200px;
+    background: #8773f2;
+    float: left;
+}
+
+
+.bg_footer {
+    background: #e6e6e6;
+}
+
+#footer {
+    height: 296px;
+}
+
+#newsletter {
+    width: 320px;
+    height: 296px;
+    background: #f25f68;
+    float: left;
+}
+
+#why_us {
+    width: 200px;
+    height: 296px;
+    background: #f2c332;
+    float: left;
+}
+
+#follow_us {
+    width: 200px;
+    height: 296px;
+    background: #94f2e5;
+    float: left;
+}
+#address {
+    width: 200px;
+    height: 296px;
+    background: #f28a22;
+    float: left;
+}
+
+
+.too_much_footer {
+    height: 90px;
+    background: #454545;
+}
