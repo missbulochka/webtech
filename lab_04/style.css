@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    width: 500px;
+}
+
+.full_name {
+    background-color: aliceblue;
+    border: none;
+    height: 40px;
+    font-size: 15px;
+    width: 48%;
+}
+
+.big_address {
+    background-color: aliceblue;
+    border: none;
+    height: 40px;
+    font-size: 15px;
+    margin-bottom: 3px;
+    width: 99%;
+}
+
+.address {
+    background-color: aliceblue;
+    border: none;
+    height: 40px;
+    font-size: 15px;
+    margin-bottom: 4px;
+    width: 159px;
+}
+
+.contact {
+    background-color: aliceblue;
+    border: none;
+    height: 40px;
+    font-size: 15px;
+    width: 240px;
+}
+
+.message {
+    background-color: aliceblue;
+    border: none;
+    height: 80px;
+    width: 495px;
+}
+
+.checkbox {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    font-size: 15px;
+    width: 100px;
+}
