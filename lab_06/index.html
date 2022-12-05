@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="h1">Анкета пользователя</h1>
+    <form action="#" method="post">
+        <h2>Пользователь</h2>
+        <div>
+            <label><input class="full_name" type="text" name="name" placeholder="Имя" required></label>
+            <label><input class="full_name" type="text" name="surname" placeholder="Фамилия" required></label>
+            <label><input class="username, name_block" type="text" name="username" placeholder="Username" required></label>
+            <label><input class="passwd, name_block" type="password" name="password" placeholder="Password" required></label>
+        </div>
+
+        <h2>Адрес</h2>
+        <div>
+            <label>
+                <select class="big_address">
+                    <OPTION selected value=а> Санкт-Петербург
+                    <OPTION value=b> Калининград
+                    <OPTION value=с> Москва
+                    <OPTION value=d> Казань
+                    <OPTION value=e> Тула
+                    <OPTION value=f> Краснодар
+                </select>
+            </label>
+            <label><input class="address_street" type="text" name="street" placeholder="Улица" required></label>
+            <label><input class="address" type="text" name="home_number" placeholder="Номер дома" required></label>
+            <label><input class="address" type="number" name="ap_number" placeholder="Номер квартиры" required></label>
+        </div>
+
+        <h2>Интересы</h2>
+        <div>
+                <label><input type="checkbox" name="hobby" value="computers">Компьютеры</label><br>
+                <label><input type="checkbox" name="hobby" value="art">Литература</label><br>
+                <label><input type="checkbox" name="hobby" value="music">Музыка</label><br>
+                <label><input type="checkbox" name="hobby" value="avto">Автомобили</label><br>
+                <label><input type="checkbox" name="hobby" value="sport">Спорт</label><br>
+                <label><input type="checkbox" name="hobby" value="nothing" checked>Ничего из списка</label><br>
+        </div>
+
+        <h2>Комментарий</h2>
+        <div>
+            <label><textarea placeholder="Напишите сюда ваши вопросы и предложения!" class="message" required></textarea></label>
+        </div>
+
+        <div>
+            <input class="button" type="submit" value="Отправить">
+            <input class="button" type="reset" value="Очистить">
+        </div>
+    </form>
+</body>
+</html>

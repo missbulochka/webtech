@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    width: 500px;
+}
+
+.full_name {
+    background-color: aliceblue;
+    border: none;
+    height: 40px;
+    font-size: 15px;
+    width: 99%;
+    margin-bottom: 3px;
+}
+
+.name_block {
+    background-color: aliceblue;
+    border: none;
+    height: 40px;
+    font-size: 15px;
+    width: 48.75%;
+    margin-bottom: 3px;
+}
+
+.big_address {
+    background-color: aliceblue;
+    border: none;
+    height: 40px;
+    font-size: 15px;
+    margin-bottom: 3px;
+    width: 100%;
+}
+
+.address_street {
+    background-color: aliceblue;
+    border: none;
+    height: 40px;
+    font-size: 15px;
+    margin-bottom: 4px;
+    width: 45%;
+}
+
+.address {
+    background-color: aliceblue;
+    border: none;
+    height: 40px;
+    font-size: 15px;
+    margin-bottom: 4px;
+    width: 25.3%;
+}
+
+.checkbox {
+    display: inline-block;
+    align-items: center;
+    user-select: none;
+}
+
+.message {
+    background-color: aliceblue;
+    border: none;
+    height: 80px;
+    width: 495px;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    font-size: 15px;
+    width: 100px;
+    cursor: pointer;
+}
