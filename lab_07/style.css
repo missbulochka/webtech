@@ -1,0 +1,50 @@
+.lap{
+    text-align: center;
+}
+.box{
+    padding: 50px;
+    text-align: center;
+}
+.bloc{
+    display: inline-block;
+    position: center;
+    padding: 5px;
+    margin: 5px;
+    border: 2px solid green;
+    width: 460px;
+}
+
+.text{
+    padding: 5px;
+}
+@media (max-width: 100%){
+    .bloc{
+        display: flex;
+        font_size: 10px;
+        width: 460px;
+    }
+}
+
+@media (max-width: 1199px)
+{
+    p
+    {
+        color: red;
+    }
+}
+
+@media (max-width: 991px)
+{
+    p
+    {
+        color: blue;
+    }
+}
+
+@media (max-width: 767px)
+{
+    p
+    {
+        color: green;
+    }
+}
